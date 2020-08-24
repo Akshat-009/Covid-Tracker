@@ -5,6 +5,7 @@ import InfoBox from "./InfoBox"
 import Map from "./Map"
 import Table from './Table'
 import {sortdata} from "./utils" 
+import LineGraph from './LineGraph'
 function App() {
   const [country,setcountry]=useState("World")
   const [countries,setCountries]=useState([])
@@ -77,7 +78,8 @@ function App() {
       <CardContent>
         <h1>Live world wide cases</h1>
         <Table countries={tabledata}/>
-        <h2>Country wise case</h2>
+        <h2>Increase in global case</h2>
+        <LineGraph/>
       </CardContent>
     </Card>
     </div>
