@@ -1,6 +1,22 @@
 .app__body
 {
     height:100vh;
-    background: rosybrown;
+    width:100vw;
+    background: #f5f6fa;
     display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+}
+
+.app__header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.app__stats{
+    display:flex;
+    justify-content: space-around;
+    
 }
